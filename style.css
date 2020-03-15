@@ -24,11 +24,12 @@ body{
 a{
 	text-decoration: none;
 	color: var(--main);
-	border-bottom: 1px dotted;
+	border-bottom: 2px solid;
 }
 
 a:hover{
 	border-bottom: 0;
+	border-bottom: 2px dotted;
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -36,6 +37,10 @@ h1, h2, h3, h4, h5, h6{
 	font-weight: normal;
 	color: var(--alt);
 	margin-bottom: 1em;
+}
+
+h1{
+	font-size: 1.6em;
 }
 
 p{
