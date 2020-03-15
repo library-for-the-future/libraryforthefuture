@@ -1,0 +1,66 @@
+
+@font-face {
+	font-family: 'Necto Mono';
+	src: url('fonts/Necto-Mono.woff2') format('woff2'), url('fonts/Necto-Mono.woff') format('woff');
+}
+*{
+	box-sizing: 0;
+	margin: 0;
+	padding: 0;
+}
+
+:root {
+	--main: rgb(255,90,80);
+	--alt: rgb(200,160,0);
+}
+
+body{
+	font-family: 'Necto Mono';
+	background: rgb(245,245,245);
+	color: var(--main);
+}
+
+
+a{
+	text-decoration: none;
+	color: var(--main);
+	border-bottom: 1px dotted;
+}
+
+a:hover{
+	border-bottom: 0;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-size: 1em;
+	font-weight: normal;
+	color: var(--alt);
+	margin-bottom: 1em;
+}
+
+p{
+	margin-bottom: 1em;
+	line-height: 1.4;
+}
+header{
+	margin: 1em 3em;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+main{
+	margin-top: 3em;
+}
+
+section{
+	padding: 3em;
+	max-width: 33em;
+	min-height: 100vh;
+}
+em{
+	font-style: normal;
+}
+.alt, em{
+	color: var(--alt);
+}
