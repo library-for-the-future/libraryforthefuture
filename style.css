@@ -69,3 +69,19 @@ em{
 .alt, em{
 	color: var(--alt);
 }
+
+@media only screen and (max-width: 600px) {
+	body{
+		font-size: .8em;
+	}
+	 header {
+	 	margin: 1em;
+	 }
+	 section{
+	 	padding: 1em;
+	 }
+
+	 h1{
+	 	font-size: 1.2em;
+	 }
+}
